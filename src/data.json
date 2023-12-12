@@ -1,0 +1,86 @@
+{
+  "lanes": [
+    {
+      "id": "New",
+      "title": "New/Open",
+      "label": "20/70",
+      "style": {"width": 280},
+      "cards": [
+        {
+          "id": "D1",
+          "title": "Dashboard Not Functional",
+          "label": "15 mins",
+          "cardStyle": { "width": 270, "maxWidth": 270, "margin": "auto", "marginBottom": 5 },
+          "description": "Dashboard doesnt respond when accessed by a"
+        }
+      ]
+    },
+    {
+      "id": "Assigned",
+      "title": "Assigned",
+      "label": "10/20",
+      "style": {"width": 280},
+      "cards": [
+        {
+          "id": "Wip1",
+          "title": "Redundant Code in file etc",
+          "label": "30 mins",
+          "cardStyle": { "width": 270, "maxWidth": 270, "margin": "auto", "marginBottom": 5 },
+          "description": "Redundant Code in file etc"
+        }
+      ]
+    },
+    {
+      "id": "Inprogress",
+      "title": "In progress",
+      "label": "0/0",
+      "style": {"width": 280},
+      "cards": []
+    },
+    {
+      "id": "Resolved",
+      "title": "Resolved",
+      "style": {"width": 280},
+      "label": "2/5",
+      "cards": [
+        {
+          "id": "Completed1",
+          "title": "Change the page title",
+          "label": "15 mins",
+          "cardStyle": { "width": 270, "maxWidth": 270, "margin": "auto", "marginBottom": 5 },
+          "description": "Change the page title"
+        },
+        {
+          "id": "Completed2",
+          "title": "Maintain Daily Journal",
+          "label": "15 mins",
+          "cardStyle": { "width": 270, "maxWidth": 270, "margin": "auto", "marginBottom": 5 },
+          "description": "Use Spreadsheet for now"
+        }
+      ]
+    },
+    {
+      "id": "Closed",
+      "title": "Closed",
+      "style": {"width": 280},
+      "label": "1/1",
+      "cards": [
+      ]
+    },
+    {
+      "id": "Rejected",
+      "title": "Rejected",
+      "style": {"width": 280},
+      "label": "1/1",
+      "cards": [
+        {
+          "id": "Archived1",
+          "title": "Go Trekking",
+          "label": "300 mins",
+          "cardStyle": { "width": 270, "maxWidth": 270, "margin": "auto", "marginBottom": 5 },
+          "description": "Completed 10km on cycle"
+        }
+      ]
+    }
+  ]
+}

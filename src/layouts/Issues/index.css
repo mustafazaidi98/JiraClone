@@ -1,0 +1,96 @@
+/* index.css */
+.github-issues {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .issues-list {
+    margin-top: 20px;
+    overflow: auto;
+    max-height: 300px;
+  }
+  
+  .issue-open {
+    background-color: #4caf50; /* Vibrant Green for active issues */
+  }
+  
+  .issue-closed {
+    background-color: #e91e63; /* Vibrant Pink for closed issues */
+  }
+  
+  .issue-open .MuiAvatar-root {
+    background-color: #4caf50;
+  }
+  
+  .issue-closed .MuiAvatar-root {
+    background-color: #e91e63;
+  }
+  
+  .MuiTypography-colorError {
+    color: #e91e63;
+  }
+  
+  .MuiInputLabel-root {
+    color: #2196f3; /* Vibrant Blue for label */
+    margin-bottom: 5px;
+  }
+  
+  .MuiOutlinedInput-notchedOutline {
+    border-color: #6c757d;
+  }
+  
+  .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: #6c757d;
+  }
+  
+  .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #2196f3;
+  }
+  
+  .MuiSelect-root {
+    color: #495057;
+  }
+  
+  .MuiSelect-icon {
+    color: #495057;
+  }
+  
+  .MuiSelect-outlined.MuiSelect-outlined {
+    border-color: #6c757d;
+  }
+  
+  .MuiSelect-outlined.MuiSelect-outlined.Mui-focused.Mui-focused {
+    border-color: #2196f3;
+  }
+  
+  .MuiList-root {
+    padding: 0;
+  }
+  
+  .pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+  }
+  
+  .pagination a {
+    color: #ff9800; /* Vibrant Orange for pagination link */
+    margin: 0 5px;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ff9800;
+    border-radius: 4px;
+  }
+  
+  .pagination a:hover {
+    background-color: #ff9800;
+    color: #fff;
+  }
+  
+  .pagination .active a {
+    background-color: #ff9800;
+    color: #fff;
+  }
+  

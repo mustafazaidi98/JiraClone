@@ -1,0 +1,38 @@
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin-top: 1rem;
+}
+
+table {
+    width: 80%;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: left;
+    width: 70px; 
+}
+
+th {
+    background-color: #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+tr:hover {
+    background-color: #f0f0f0;
+}
+
+button {
+    margin-left: 0.5rem;
+}
